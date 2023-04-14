@@ -17,6 +17,7 @@ Debe ser posible convertir una palabra para la versión encriptada también devo
 let input = document.getElementById("texto");
 
 function encriptar(mensaje) {
+    mensaje = mensaje.toLowerCase();
     mensaje = mensaje.replaceAll('e', 'enter');
     mensaje = mensaje.replaceAll('i', 'imes');
     mensaje = mensaje.replaceAll('a', 'ai');
