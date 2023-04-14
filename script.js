@@ -30,6 +30,7 @@ function encriptar(mensaje) {
 }
 
 function desencriptar(mensaje) {
+    mensaje = mensaje.toLowerCase();
     mensaje = mensaje.replaceAll('enter', "e");
     mensaje = mensaje.replaceAll('imes', "i");
     mensaje = mensaje.replaceAll('ai', "a");
